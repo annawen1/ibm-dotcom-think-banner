@@ -186,7 +186,7 @@ class Banner extends Component {
 
   render() {
     let locale = this.state.locale;
-    if (this.state.bandData?.active) {
+    // if (this.state.bandData?.active) {
       var videoString = null;
       if (this.state.bandData.content[locale ? locale : 'en'].videoUrl) {
         videoString = (
@@ -264,9 +264,9 @@ class Banner extends Component {
           </a>
         </div>
       );
-    } else {
-      return null;
-    }
+    // } else {
+    //   return null;
+    // }
   }
 }
 
