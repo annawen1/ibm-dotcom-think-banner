@@ -186,7 +186,7 @@ class Banner extends Component {
 
   render() {
     let locale = this.state.locale;
-    if (this.state.bandData?.active) {
+    if (true) {
       var videoString = null;
       if (this.state.bandData.content[locale ? locale : 'en'].videoUrl) {
         videoString = (
